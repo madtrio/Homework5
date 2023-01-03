@@ -3,9 +3,9 @@ public class Main {
         System.out.println("Task 1");
         char clientOS = 0;
         if (clientOS == 1) {
-            System.out.println("Установите версию приложения для Android по ссылке");
+            System.out.println("Установите версию приложения для Android по ссылке ниже");
         } else {
-            System.out.println("Установите версию приложения для iOS по ссылке");
+            System.out.println("Установите версию приложения для iOS по ссылке ниже ");
         }
     }
 }
