@@ -7,5 +7,21 @@ public class Main {
         } else {
             System.out.println("Установите версию приложения для iOS по ссылке ниже ");
         }
+
+        System.out.println("Task 2");
+        char clientOS2 = 1;
+        int clientDeviceYear = 2015;
+        int year = 2020;
+        if (clientOS2 == 1 && year <= clientDeviceYear) {
+            System.out.println("Установите версию приложения для Android по ссылке ниже");
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        } else if (clientOS2 == 1 && year > clientDeviceYear) {
+            System.out.println("Установите версию приложения для Android по ссылке ниже");
+        } else if (clientOS2 == 0 && year <= clientDeviceYear) {
+            System.out.println("Установите версию приложения для iOS по ссылке ниже");
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке");
+        } else {
+            System.out.println("Установите версию приложения для iOS по ссылке ниже");
     }
+}
 }
